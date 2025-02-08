@@ -1,0 +1,18 @@
+@use '@/styles/variables' as *;
+
+.search {
+	width: 100%;
+}
+.search_input {
+	background-color: $bg-section;
+	border: 2px solid $black;
+	width: 100%;
+	border-radius: 20px;
+
+	padding: 10px 15px;
+	margin-bottom: 10px;
+
+	&::placeholder {
+		color: #000;
+	}
+}

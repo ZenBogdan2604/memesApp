@@ -1,0 +1,17 @@
+@use '@/styles/variables' as *;
+
+.nav_list {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.nav_list__link {
+	font-size: 18px;
+	text-decoration: none;
+	color: $link;
+	transition: color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+	&:hover {
+		color: $link-hover;
+	}
+}

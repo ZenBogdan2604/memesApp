@@ -1,0 +1,72 @@
+.qwe {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .input_block{
+    width: 200px;
+  }
+  
+  input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    box-sizing: border-box;
+    
+  }
+  
+  button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .qwer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .accept_button{
+    margin-bottom: 50px;
+  }
+  .loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 100vh;          
+    width: 100%;            
+    font-size: 96px;       
+    background: linear-gradient(90deg, #ffffff, #e933ff, #ffffff);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textflow 5s linear infinite;
+
+@keyframes textflow {
+  from {background-position: 0% center}         
+  to {background-position: 200% center}
+}
+}
+.button_block{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}

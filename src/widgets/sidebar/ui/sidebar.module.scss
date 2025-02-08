@@ -1,0 +1,8 @@
+@use '@/styles/variables' as *;
+
+.sidebar {
+	width: 30%;
+	border: 2px solid $black;
+	background-color: $bg-section;
+	border-radius: 30px;
+}
